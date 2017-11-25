@@ -1,7 +1,7 @@
 # This is a comment
-prefix=@prefix@
-exec_prefix=@exec_prefix@
-includedir=@includedir@
+prefix=@CMAKE_INSTALL_PREFIX@
+libdir=${prefix}/@CMAKE_INSTALL_LIBDIR@
+includedir=@CMAKE_INSTALL_INCLUDEDIR@
 
 Name:  libbcg729
 Description: Implement the ITU G729 speech codec. 
