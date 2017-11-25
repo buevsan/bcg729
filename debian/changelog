@@ -1,8 +1,9 @@
-bcg729 (1.0.0-3) unstable; urgency=medium
+bcg729 (1.0.4-1) unstable; urgency=medium
 
   * Switched debian to cmake build 
   * Removed patches for autotools files
-  * Removed build of medistreamer plugin [san]
+  * Removed build of medistreamer plugin 
+  * Corrected version in debian changelog [san]
 
  -- Alexander V. Buev <san@zzz.spb.ru>  Sat, 25 Nov 2017 12:35:43 +0300
 
